@@ -116,7 +116,7 @@ def main():
         status=js(publication)
         if status.get('remote_verified'):
             blocks['Материалы и методы'][-1]=blocks['Материалы и методы'][-1].replace('подготовлены для репозитория github.com/ANSTAPABAL/research-mythos. Версия публикации и состояние выгрузки фиксируются в материалах проекта.',f'опубликованы в github.com/ANSTAPABAL/research-mythos, версия {status["tag"]}, идентификатор {status["commit"][:12]}.')
-    path=ROOT/'article/article_final_v2_2.docx';doc=blank_from_template(path);doc.core_properties.title=TITLE;doc.core_properties.subject='Лингвистика текстовых цепочек; оконный корпусный анализ'
+    path=ROOT/'article/article_final_v2_3.docx';doc=blank_from_template(path);doc.core_properties.title=TITLE;doc.core_properties.subject='Лингвистика текстовых цепочек; оконный корпусный анализ'
     para(doc,'УДК 004.8',indent=False,after=3)
     p=para(doc,TITLE,style='Title',indent=False,after=3);p.runs[0].bold=True;p.paragraph_format.keep_with_next=True
     authors(doc);para(doc,'Научный руководитель — Белова Татьяна Мухорамовна, кандидат филологических наук, доцент.',indent=False,after=3)
@@ -131,7 +131,9 @@ def main():
             p=para(doc,title,indent=False,after=2);p.runs[0].italic=True;p.paragraph_format.keep_with_next=True
         else:head(doc,title)
         for i,tx in enumerate(texts):
-            para(doc,tx)
+            if title=='Введение' and tx.startswith(('Научная новизна. ','Практическая значимость. ')):
+                label,body=tx.split('. ',1);para(doc,body,bold_prefix=label+'. ')
+            else:para(doc,tx)
             if title=='Результаты' and i==0:
                 para(doc,'Таблица 1. Медианы на вопросах основной оконной выборки',indent=False,after=2)
                 rows=[]
@@ -150,14 +152,14 @@ def main():
     readable='\n\n'.join(p.text for p in doc.paragraphs)
     (ROOT/'article/manuscript_review_v2.json').write_text(json.dumps({'title_ru':TITLE,'title_en':EN,'abstract_ru':abstract,'abstract_en':abstract_en,'sections':blocks,'sources':refs},ensure_ascii=False,indent=2),encoding='utf8')
     (ROOT/'article/manuscript_readable.txt').write_text(readable,encoding='utf8')
-    a=blank_from_template(ROOT/'article/abstract_1page_v2_2.docx');a.core_properties.title=TITLE
+    a=blank_from_template(ROOT/'article/abstract_1page_v2_3.docx');a.core_properties.title=TITLE
     p=para(a,TITLE,style='Title',indent=False,after=4);p.runs[0].bold=True;authors(a)
     para(a,'Научный руководитель — Белова Татьяна Мухорамовна, кандидат филологических наук, доцент.',indent=False,after=3)
     para(a,abstract,after=4)
     para(a,'Программный анализатор связывает числовые показатели с вопросом, исходной записью и основаниями языковой разметки. Это позволяет проверить конкретный пропуск и отделить грамматическое дополнение от добавления условий задачи. Фиксированные окна контролируют длину записи; проверки на токенах, символах и байтах сохраняют направление различий Claude. Mythos и Astra рассматриваются отдельно от количественного корпуса.',after=4)
     para(a,keywords,bold_prefix='Ключевые слова: ',indent=False)
     for p in a.paragraphs:p.paragraph_format.line_spacing=1.5
-    a.save(ROOT/'article/abstract_1page_v2_2.docx')
+    a.save(ROOT/'article/abstract_1page_v2_3.docx')
     (OUT/'article_build_manifest.json').write_text(json.dumps({'title':TITLE,'references':len(refs),'abstract_ru_characters':len(abstract),'abstract_en_characters':len(abstract_en),'article_characters':len(readable),'analysis_config_sha256':m['analysis_config_sha256']},ensure_ascii=False,indent=2),encoding='utf8')
     print('Reviewed article built:',len(readable),'characters;',len(refs),'sources; abstract',len(abstract))
 if __name__=='__main__':main()

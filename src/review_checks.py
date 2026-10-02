@@ -37,12 +37,12 @@ def main():
     assert np.allclose(original[numeric],repeated[numeric],rtol=1e-10,atol=1e-12)
     pages={}
     for folder,stem in [('article','article_final'),('abstract','abstract_1page')]:
-        filename=stem+'_v2_2'
+        filename=stem+'_v2_3'
         path=ROOT/'qa'/folder/(filename+'.pdf');pdf=fitz.open(path)
         for i,p in enumerate(pdf):p.get_pixmap(matrix=fitz.Matrix(1.7,1.7)).save(path.parent/f'page-{i+1}.png')
         pages[stem]={'pages':len(pdf),'pdf_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'docx_sha256':hashlib.sha256((ROOT/'article'/(filename+'.docx')).read_bytes()).hexdigest(),'visual_inspection':'pending'}
     assert 4<=pages['article_final']['pages']<=6 and pages['abstract_1page']['pages']==1
-    doc=Document(ROOT/'article/article_final_v2_2.docx');text='\n'.join(p.text for p in doc.paragraphs)
+    doc=Document(ROOT/'article/article_final_v2_3.docx');text='\n'.join(p.text for p in doc.paragraphs)
     assert len(text)>=6000 and len(SELECT)==14 and len(doc.inline_shapes)==1
     contact=ROOT/'article/author_metadata.json'
     if contact.exists():assert json.loads(contact.read_text(encoding='utf8'))['email'] in text
@@ -58,7 +58,7 @@ def main():
             if r.text:
                 assert (r.font.name or doc.styles[p.style.name].font.name)=='Times New Roman'
                 assert (r.font.size or doc.styles[p.style.name].font.size).pt==12
-    assert all(p.paragraph_format.line_spacing==1.5 for p in Document(ROOT/'article/abstract_1page_v2_2.docx').paragraphs)
+    assert all(p.paragraph_format.line_spacing==1.5 for p in Document(ROOT/'article/abstract_1page_v2_3.docx').paragraphs)
     aisi=' '.join(fitz.open(ROOT/'data/sources/astra_aisi.pdf')[6].get_text().split());elicited=' '.join(fitz.open(ROOT/'data/sources/astra_extracted.pdf')[5].get_text().split())
     assert 'User likely scripted continuer prompt never provide explicit, task cannot resolve valid scope.' in aisi
     assert 'Subtract first two gives (b-c)(a+b+c-3)=0 so sum3.' in elicited and 'Since b != c' in elicited
