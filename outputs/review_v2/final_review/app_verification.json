@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "method": "Streamlit AppTest executes real app and widget state transitions",
+  "screens": [
+    "Обзор",
+    "Сравнение моделей",
+    "Разметка",
+    "Статистика"
+  ],
+  "new_controls": [
+    "64-token comparison",
+    "32 random coded excerpts",
+    "800-byte paired statistics"
+  ]
+}

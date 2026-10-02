@@ -1,0 +1,12 @@
+{
+  "seed": 20261003,
+  "token_width": 64,
+  "character_width": 800,
+  "byte_width": 800,
+  "random_questions": 8,
+  "random_excerpt_max_tokens": 40,
+  "random_population": "all 3022 common questions; uniform without replacement; independently uniform token start within each trace",
+  "bootstrap": "same task→question paired hierarchy, seed 20261002, 1000 repetitions as primary analysis",
+  "byte_windows": "exact raw UTF-8 bytes; may intersect multibyte characters; compression only, no linguistic decoding",
+  "annotation_status": "AI-assisted; independent human evaluation pending"
+}

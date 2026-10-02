@@ -1,0 +1,5 @@
+model,zlib_ratio
+openrouter_anthropic_claude-3-7-sonnet,0.5004166666666666
+openrouter_deepseek_deepseek-r1-0528,0.5266666666666667
+openrouter_qwen_qwen3-235b-a22b-thinking-2507,0.5254114713216957
+openrouter_qwen_qwq-32b,0.52125

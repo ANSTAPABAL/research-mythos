@@ -1,21 +1,36 @@
 {
   "checks": "PASS",
-  "raw_excerpt_offsets_verified": 96,
+  "raw_excerpt_offsets_verified": 128,
   "independent_human_annotation": false,
   "agreement": null,
-  "resampling_reproduction": "all 48 primary comparisons match at rtol=1e-10, atol=1e-12; deterministic reproduction, not independent validation",
+  "resampling_reproduction": "48 primary + 60 additional comparisons reproduce at rtol=1e-10, atol=1e-12; deterministic reproduction, not independent validation",
   "rendering": {
     "article_final": {
       "pages": 6,
-      "visual_inspection": "PASS: all page PNGs inspected; no clipping, overlap or broken table headers"
+      "visual_inspection": "PASS: all six article pages and one abstract page inspected; no clipping or overlap"
     },
     "abstract_1page": {
       "pages": 1,
-      "visual_inspection": "PASS: all page PNGs inspected; no clipping, overlap or broken table headers"
+      "visual_inspection": "PASS: all six article pages and one abstract page inspected; no clipping or overlap"
     }
   },
-  "article_characters": 18726,
+  "article_characters": 19843,
   "references": 14,
   "source_quotes_verified": true,
-  "ui_verification": "Live browser: overview 12088/3022; annotation A001 negative and A013 positive; context, categories and downloads visible"
+  "random_selection_reproduced": true,
+  "ui_verification": {
+    "status": "PASS",
+    "method": "Streamlit AppTest executes real app and widget state transitions",
+    "screens": [
+      "Обзор",
+      "Сравнение моделей",
+      "Разметка",
+      "Статистика"
+    ],
+    "new_controls": [
+      "64-token comparison",
+      "32 random coded excerpts",
+      "800-byte paired statistics"
+    ]
+  }
 }

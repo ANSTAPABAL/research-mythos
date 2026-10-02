@@ -1,0 +1,16 @@
+{
+  "fragments": 32,
+  "questions": 8,
+  "counts": {
+    "ellipsis": 3,
+    "symbolic_substitution": 3,
+    "nonce_derivation": 0,
+    "argument_omission": 1,
+    "inference_marker": 11,
+    "code_switching": 0,
+    "telegraphic_syntax": 4,
+    "compressed_reference": 2
+  },
+  "any_positive": 16,
+  "status": "AI-assisted; no independent human validation; small question-clustered random sample, no prevalence estimate"
+}

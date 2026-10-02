@@ -9,6 +9,8 @@ def main():
         from fetch_data import main as fetch;fetch()
     from review_revision import main as analyze;analyze()
     from code_review_annotations import main as coding;coding()
+    from final_review_analysis import main as additional;additional()
+    from code_random_annotations import main as random_coding;random_coding()
     from review_figures import main as figures;figures()
     from build_article_review import main as article;article()
     import pytest

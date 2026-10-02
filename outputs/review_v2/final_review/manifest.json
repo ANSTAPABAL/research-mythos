@@ -1,0 +1,32 @@
+{
+  "sensitivity": [
+    {
+      "mode": "tokens64",
+      "questions": 3003,
+      "excluded_questions": 19,
+      "tasks": 43,
+      "rows": 12012
+    },
+    {
+      "mode": "characters800",
+      "questions": 2830,
+      "excluded_questions": 192,
+      "tasks": 43,
+      "rows": 11320
+    },
+    {
+      "mode": "bytes800",
+      "questions": 2830,
+      "excluded_questions": 192,
+      "tasks": 43,
+      "rows": 11320
+    }
+  ],
+  "random_fragments": 32,
+  "random_questions": 8,
+  "random_selection": "all 3022 common questions; uniform without replacement; independently uniform token start within each trace",
+  "random_seed": 20261003,
+  "configuration_sha256": "931109f3250e09411b8ef0f9dbb24b4cbb65beee68a9a870400529a2e6096659",
+  "human_agreement": "pending; no independent human annotations available",
+  "cooccurrence_status": "initial AI-assisted coding; enriched 96 excerpts"
+}
