@@ -109,12 +109,14 @@ def main():
     blocks['Результаты'][2]+=f" В отдельной случайной выборке из 32 фрагментов отмечены эллипсис ({random['counts']['ellipsis']}), символическая запись ({random['counts']['symbolic_substitution']}), маркер вывода ({random['counts']['inference_marker']}); 16 фрагментов не получили ни одной категории. Малый объём и ИИ-разметка не позволяют оценивать распространённость."
     blocks['Обсуждение'][1]=blocks['Обсуждение'][1].replace('Одинаковое число whitespace-токенов контролирует токенную длину, но не число символов или байтов; математический токен может быть длиннее обычного слова.', 'Проверки на 800 символах и 800 байтах сохраняют направление различий Claude при иных единицах длины; смена состава выборки ограничивает прямое сравнение величин эффектов.')
     # Linguistic analyses are subsections of Results; the five required main sections remain exact.
+    from article_editorial import revise
+    abstract,abstract_en,blocks=revise(blocks,m,key)
     publication=OUT/'publication_status.json'
     if publication.exists():
         status=js(publication)
         if status.get('remote_verified'):
-            blocks['Материалы и методы'][-1]=blocks['Материалы и методы'][-1].replace('подготовлены для репозитория github.com/ANSTAPABAL/research-mythos. Версия публикации и состояние выгрузки фиксируются в материалах проекта.',f'опубликованы в github.com/ANSTAPABAL/research-mythos, тег {status["tag"]}, commit {status["commit"][:12]}.')
-    path=ROOT/'article/article_final_v2_1.docx';doc=blank_from_template(path);doc.core_properties.title=TITLE;doc.core_properties.subject='Лингвистика текстовых цепочек; оконный корпусный анализ'
+            blocks['Материалы и методы'][-1]=blocks['Материалы и методы'][-1].replace('подготовлены для репозитория github.com/ANSTAPABAL/research-mythos. Версия публикации и состояние выгрузки фиксируются в материалах проекта.',f'опубликованы в github.com/ANSTAPABAL/research-mythos, версия {status["tag"]}, идентификатор {status["commit"][:12]}.')
+    path=ROOT/'article/article_final_v2_2.docx';doc=blank_from_template(path);doc.core_properties.title=TITLE;doc.core_properties.subject='Лингвистика текстовых цепочек; оконный корпусный анализ'
     para(doc,'УДК 004.8',indent=False,after=3)
     p=para(doc,TITLE,style='Title',indent=False,after=3);p.runs[0].bold=True;p.paragraph_format.keep_with_next=True
     authors(doc);para(doc,'Научный руководитель — Белова Татьяна Мухорамовна, кандидат филологических наук, доцент.',indent=False,after=3)
@@ -138,6 +140,7 @@ def main():
                 # Whole-trace and window descriptors use exactly the same eligible questions.
                 table(doc,rows,['Модель','Длина¹','S','P','H','R₁₂₈','L','Q'],[3.8,1.8,1.4,1.4,1.4,1.4,1.4,1.4])
                 para(doc,'¹ Длина полной цепочки. Все показатели таблицы относятся к одним и тем же 2875 вопросам. H — описательный показатель; дополнительные признаки и все парные эффекты сохранены в CSV.',indent=False,after=3)
+                para(doc,'Меньшее R означает более сжимаемую запись. По полным цепочкам Claude выглядит менее сжимаемым, чем DeepSeek, а при одинаковой длине окна — более сжимаемым. Следовательно, сравнение полных цепочек смешивает различия регулярности записи с различиями длины; его нельзя непосредственно трактовать как языковое сокращение.')
                 picture(doc,OUT/'figures/fixed_window_comparison.png','Рис. 1. Распределения R и парные разности при окнах 128 токенов')
     head(doc,'Список источников')
     refs=source_list()
@@ -147,14 +150,14 @@ def main():
     readable='\n\n'.join(p.text for p in doc.paragraphs)
     (ROOT/'article/manuscript_review_v2.json').write_text(json.dumps({'title_ru':TITLE,'title_en':EN,'abstract_ru':abstract,'abstract_en':abstract_en,'sections':blocks,'sources':refs},ensure_ascii=False,indent=2),encoding='utf8')
     (ROOT/'article/manuscript_readable.txt').write_text(readable,encoding='utf8')
-    a=blank_from_template(ROOT/'article/abstract_1page_v2_1.docx');a.core_properties.title=TITLE
+    a=blank_from_template(ROOT/'article/abstract_1page_v2_2.docx');a.core_properties.title=TITLE
     p=para(a,TITLE,style='Title',indent=False,after=4);p.runs[0].bold=True;authors(a)
     para(a,'Научный руководитель — Белова Татьяна Мухорамовна, кандидат филологических наук, доцент.',indent=False,after=3)
     para(a,abstract,after=4)
-    para(a,'ПО сохраняет неизменённый текст, вопрос и границы окон, рассчитывает дополнительные признаки пунктуации, пробелов, операторов и регистра. Файл разметки содержит точные основания для каждой категории; отдельная обезличенная копия предназначена для независимой проверки. Все числа получены пакетным расчётом; Mythos и Astra рассматриваются отдельно от количественной выборки.',after=4)
+    para(a,'Программный анализатор связывает числовые показатели с вопросом, исходной записью и основаниями языковой разметки. Это позволяет проверить конкретный пропуск и отделить грамматическое дополнение от добавления условий задачи. Фиксированные окна контролируют длину записи; проверки на токенах, символах и байтах сохраняют направление различий Claude. Mythos и Astra рассматриваются отдельно от количественного корпуса.',after=4)
     para(a,keywords,bold_prefix='Ключевые слова: ',indent=False)
     for p in a.paragraphs:p.paragraph_format.line_spacing=1.5
-    a.save(ROOT/'article/abstract_1page_v2_1.docx')
+    a.save(ROOT/'article/abstract_1page_v2_2.docx')
     (OUT/'article_build_manifest.json').write_text(json.dumps({'title':TITLE,'references':len(refs),'abstract_ru_characters':len(abstract),'abstract_en_characters':len(abstract_en),'article_characters':len(readable),'analysis_config_sha256':m['analysis_config_sha256']},ensure_ascii=False,indent=2),encoding='utf8')
     print('Reviewed article built:',len(readable),'characters;',len(refs),'sources; abstract',len(abstract))
 if __name__=='__main__':main()
