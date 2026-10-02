@@ -96,6 +96,7 @@ def main():
     a=pd.concat(aggregates,ignore_index=True);a.to_parquet(OUT/'fixed_window_metrics.parquet',index=False)
     full.groupby('model')[['whitespace_tokens']+METRICS].median().to_csv(OUT/'tables/whole_trace_medians.csv')
     primary=a[a.width.eq(CFG['primary_width'])]
+    full[full.core_id.isin(primary.core_id.unique())].groupby('model')[['whitespace_tokens']+METRICS].median().to_csv(OUT/'tables/whole_trace_medians_primary128.csv')
     key=primary[['core_id','model']];short=d.merge(key,on=['core_id','model'],validate='one_to_one')
     first=raw[raw.width.eq(CFG['primary_width'])&raw.start_token.eq(0)].merge(key,on=['core_id','model'])
     compare(first,CFG['primary_metrics'],CFG['bootstrap_repetitions']).to_csv(OUT/'tables/sensitivity_first_only.csv',index=False)
