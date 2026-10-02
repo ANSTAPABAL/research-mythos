@@ -1,0 +1,13 @@
+# Источники и условия использования
+
+Дата проверки: 02.10.2026. Количественный корпус — [Measuring CoT Monitorability Transcripts](https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts), ревизия a7a8b25ae467db9d80d63e55ac053b48753b2d36, 446208 строк. Описание — Meek et al., [arXiv:2510.27378](https://arxiv.org/abs/2510.27378). Полная лицензия, дополнительные условия outputs и атрибуции сохранены в data/raw/LICENSE и README.md. Анализируемые четыре модели не включают Mythos/Astra. Claude outputs не предназначены для обучения других моделей согласно ограничениям источника; этот проект выполняет анализ, не обучение генеративной модели. MMLU и BBH — MIT; GPQA — CC BY 4.0 по лицензии корпуса.
+
+Mythos — официальная [system card](https://www.anthropic.com/claude-fable-5-mythos-5-system-card), PDF страницы 106–107 и 119. Ссылка на актуальный PDF и короткие выдержки записаны в data/case_studies/anthropic_mythos.csv. Исходный URL ТЗ вернул 403; использован PDF с официальной страницы карточек.
+
+Astra — [отчёт AISI](https://arxiv.org/abs/2609.38415v1), PDF с. 7, отобранные исследователями выдержки raw CoT; и [Capable yet Parsimonious](https://arxiv.org/abs/2609.26637v1), PDF с. 6, специально вызванное объяснение, не подтверждённое как дословная нативная скрытая цепочка. Статусы и SHA файлов — outputs/linguistic_evidence.json; точные строки проверены по PDF. Старый официальный transcript OpenAI не относится к Astra и не входит в новую статью.
+
+Библиографический инвентарь 30 первичных источников ТЗ — data/literature/references.json; в статье оставлены 14 релевантных работ, включая корпус и новые Astra-источники. Рецензируемые статьи, препринты, системная карточка и технический отчёт обозначены отдельно. Полные сторонние научные тексты/PDF не включены в публикацию.
+
+Оформление: [страница участников](https://linguistics.bmstu.ru/for-participants), официальный шаблон proceedings_template.docx и requirements_paper.docx в data/sources. Статья: A4, поля 2 см, TNR 12, одинарный интервал, 4–6 страниц; тезисы: одна страница, интервал 1,5. Применена актуальная страница конференции и ТЗ при расхождении интервала с отдельным скачанным файлом. Право и оригинальность текста конференционной службой не проверены; автоматический процент оригинальности не придуман.
+
+Референсные репозитории исследованы без копирования/запуска их кода: cot_legibility, ChainScope, monitorability-evals, MonitorBench, faithful-cot, CoT-FSM, IsCoTExplainability, shorthand-for-thought. URL, ревизии и лицензии — outputs/reference_inventory.json. Собственный анализ реализован в src; отсутствие LICENSE у референса не трактуется как разрешение на копирование.

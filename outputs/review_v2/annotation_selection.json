@@ -1,0 +1,7 @@
+{
+  "fragment_count": 96,
+  "questions": 24,
+  "selection": "8 highest question-max S, 8 highest P among remainder, 8 seeded random among remainder; all four models; first 40 tokens of candidate complete window with largest S; task context retained",
+  "population_estimation": false,
+  "human_agreement": "not available"
+}

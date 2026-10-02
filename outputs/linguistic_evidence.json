@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/2609.38415v1",
+      "path": "data\\sources\\astra_aisi.pdf",
+      "bytes": 2136574,
+      "sha256": "18e32cc8accd1934b480596502eed6fe9a0b8df777e30406081e7ecbecaee218",
+      "pdf_page": 7,
+      "status": "native raw CoT excerpts selected by AISI",
+      "access_date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.26637v1",
+      "path": "data\\sources\\astra_extracted.pdf",
+      "bytes": 2192767,
+      "sha256": "0fbdf779394e07caa881349145e2415b4bdc7701641830eb5322b3747bf467da",
+      "pdf_page": 6,
+      "status": "experimentally elicited externalized reasoning; not verified native CoT",
+      "access_date": "2026-10-02"
+    }
+  ],
+  "excerpt_checks": {
+    "native_quote": true,
+    "elicited_quote": true,
+    "need_construct": true,
+    "morphology": true,
+    "german": true,
+    "algebra_condition_in_comparison": true
+  },
+  "method": "manual qualitative analysis of publisher-selected excerpts; no prevalence estimate or matched Mythos/Astra experiment",
+  "reconstruction": "Expanded English algebra sentence is author reconstruction, not model quotation.",
+  "quantitative_models": "Historical four-model corpus unchanged; neither Mythos nor Astra included."
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 20261002,
+  "dataset": "ameek/measuring_cot_monitorability_transcripts",
+  "revision": "a7a8b25ae467db9d80d63e55ac053b48753b2d36",
+  "baseline_only": true,
+  "per_task_max": 20,
+  "bootstrap_repetitions": 1000,
+  "rolling_window_tokens": [64, 128, 256],
+  "primary_metrics": ["symbol_density", "zlib_ratio", "char_entropy", "low_frequency_fraction", "repeat_4gram"],
+  "selection": "For each task, use seeded random sample of core_ids with nonempty reasoning in all models that expose reasoning. Apply same core_ids to each model. Nonreasoning response text is never substituted for reasoning.",
+  "inference": "Paired model comparisons by core_id: Wilcoxon signed rank with Holm across all pairs and primary metrics; paired bootstrap CI for median difference. Descriptive Kruskal-Wallis marked dependence-limited. Correctness logit with model, task and log length, cluster SE by core_id. Spearman bootstrap by core_id. Group split classification only secondary.",
+  "sensitivity": "Exclude longest 1 percent within model; English-only via langdetect; retain all available baseline traces as descriptive check; rolling windows 64/128/256. No causal or monitorability evaluation claim.",
+  "optional": "No paid APIs or sentence embedding models. Lexical frequency proxy uses wordfreq English and is not a dictionary of valid notation. Surface heuristics do not certify legibility or faithfulness."
+}

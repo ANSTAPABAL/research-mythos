@@ -1,0 +1,49 @@
+{
+  "questions": 3022,
+  "rows": 12088,
+  "models": [
+    "openrouter_anthropic_claude-3-7-sonnet",
+    "openrouter_deepseek_deepseek-r1-0528",
+    "openrouter_qwen_qwen3-235b-a22b-thinking-2507",
+    "openrouter_qwen_qwq-32b"
+  ],
+  "tasks": 43,
+  "eligibility": [
+    {
+      "width": 128,
+      "complete_questions": 2875,
+      "excluded_short_questions": 147,
+      "paired_rows": 11500,
+      "tasks": 43,
+      "raw_windows_included": 34484
+    },
+    {
+      "width": 256,
+      "complete_questions": 1668,
+      "excluded_short_questions": 1354,
+      "paired_rows": 6672,
+      "tasks": 43,
+      "raw_windows_included": 19984
+    },
+    {
+      "width": 512,
+      "complete_questions": 576,
+      "excluded_short_questions": 2446,
+      "paired_rows": 2304,
+      "tasks": 41,
+      "raw_windows_included": 6906
+    }
+  ],
+  "primary_checks": {
+    "all_shared_questions_used": true,
+    "paired_models": true,
+    "exact_complete_windows": true,
+    "raw_spans_match": true,
+    "finite_metrics": true,
+    "no_correctness_inference": true
+  },
+  "whole_length_ratio_rho": -0.8670297669932002,
+  "sensitivity_latin95_questions": 2875,
+  "elapsed_seconds": 436.6819431781769,
+  "analysis_config_sha256": "144d0ba749ce10390fed2dc77114ff46d4b6c0947972eb2ce33ae8f5a79e587a"
+}

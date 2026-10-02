@@ -1,0 +1,60 @@
+{
+  "n_fragments": 96,
+  "n_questions": 24,
+  "positive_fragments": 69,
+  "counts": {
+    "ellipsis": 27,
+    "symbolic_substitution": 60,
+    "argument_omission": 5,
+    "inference_marker": 38,
+    "telegraphic_syntax": 28,
+    "compressed_reference": 18,
+    "nonce_derivation": 0,
+    "code_switching": 0
+  },
+  "by_model": {
+    "openrouter_anthropic_claude-3-7-sonnet": {
+      "ellipsis": 1,
+      "symbolic_substitution": 17,
+      "argument_omission": 0,
+      "inference_marker": 5,
+      "telegraphic_syntax": 6,
+      "compressed_reference": 2,
+      "nonce_derivation": 0,
+      "code_switching": 0
+    },
+    "openrouter_deepseek_deepseek-r1-0528": {
+      "ellipsis": 13,
+      "symbolic_substitution": 17,
+      "argument_omission": 2,
+      "inference_marker": 9,
+      "telegraphic_syntax": 10,
+      "compressed_reference": 5,
+      "nonce_derivation": 0,
+      "code_switching": 0
+    },
+    "openrouter_qwen_qwen3-235b-a22b-thinking-2507": {
+      "ellipsis": 9,
+      "symbolic_substitution": 15,
+      "argument_omission": 3,
+      "inference_marker": 14,
+      "telegraphic_syntax": 7,
+      "compressed_reference": 4,
+      "nonce_derivation": 0,
+      "code_switching": 0
+    },
+    "openrouter_qwen_qwq-32b": {
+      "ellipsis": 4,
+      "symbolic_substitution": 11,
+      "argument_omission": 0,
+      "inference_marker": 10,
+      "telegraphic_syntax": 5,
+      "compressed_reference": 7,
+      "nonce_derivation": 0,
+      "code_switching": 0
+    }
+  },
+  "status": "AI-assisted initial coding; independent human validation pending",
+  "agreement": null,
+  "prevalence_estimate": false
+}

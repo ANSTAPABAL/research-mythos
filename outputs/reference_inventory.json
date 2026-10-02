@@ -1,0 +1,106 @@
+[
+  {
+    "repository": "Jozdien/cot_legibility",
+    "url": "https://github.com/Jozdien/cot_legibility",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "89195c70288b4b141460447f5fde02f67b38b043",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "da8b4fb5b0795c495cad9a64c5c32293a049f64e0449a4651a4dac73da7c374e",
+    "LICENSE_status": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "jettjaniak/chainscope",
+    "url": "https://github.com/jettjaniak/chainscope",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "bb128ac0f22dd60ab3d876a78e1c6c22fff7e830",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "c33be111c51905be2199f5b9bbe17e13dded5233448559f3954ae1e6ffb1f0ce",
+    "LICENSE_sha256": "716a60c415dd6353a2eaa1bdac9c854ac725e72d19d0ba759f0b51e853a2caf8"
+  },
+  {
+    "repository": "openai/monitorability-evals",
+    "url": "https://github.com/openai/monitorability-evals",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "d14f181a0623f7949fdb2d8c3f15874115fa44ba",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "9f25531cc7596effd8aec273ad2724bf99fc5b38e20434049348d6233c35f434",
+    "LICENSE_status": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "ASTRAL-Group/MonitorBench",
+    "url": "https://github.com/ASTRAL-Group/MonitorBench",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "fe9c11b80ac76095193694a995a8d30fa921d62c",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "515ef5cb485697603eb4793f3685cafe21cdae412a049f3f49875fdcc859e095",
+    "LICENSE_sha256": "cde76533e941191a287ddba36f216dde931addd143cd68846f1c5214326dd090"
+  },
+  {
+    "repository": "safety-research/faithful-cot",
+    "url": "https://github.com/safety-research/faithful-cot",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "f9e1f29564fcd8d3a50507766e028547cdbbbd23",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "e530f5d58ec19322f90c93921d7272b1104c16ac38bf17f96c3889f80f6ba878",
+    "LICENSE_status": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "shahariar-shibli/CoT-FSM",
+    "url": "https://github.com/shahariar-shibli/CoT-FSM",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "1b7fdc05258071c9feb0f92c9693aab4e8190716",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "b707fcff29888515467f72be791d9045f2b3e57284b23ffe9f16f8d0efee8e54",
+    "LICENSE_status": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "KeremZaman/IsCoTExplainability",
+    "url": "https://github.com/KeremZaman/IsCoTExplainability",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "266bbfec41dc2ed625e684f892b3c71dbb0995cf",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "c6a4597dc9302367662eb97fb9657ad9d31877a73ff54ed3151f5a9cd141a144",
+    "LICENSE_status": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "Writer/shorthand-for-thought",
+    "url": "https://github.com/Writer/shorthand-for-thought",
+    "accessed": "2026-10-02",
+    "usage": "Reference only; no code/results copied or run.",
+    "api_error": "HTTP Error 403: rate limit exceeded",
+    "http_status": 200,
+    "revision": "10bcc42c2f1167acf9e910d76bc33029edbdbf6b",
+    "license_status": "Read retained LICENSE; GitHub API unavailable",
+    "README.md_sha256": "3465619d1a84bd94c98e70ffd2e6b4ff02269063d917781328d04ee1722ef398",
+    "LICENSE_sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+  },
+  {
+    "dataset": "toroe/ReasonXL-SFT",
+    "url": "https://huggingface.co/datasets/toroe/ReasonXL-SFT",
+    "revision": "321da71a81762dd28b3462e25cde4be3e7103840",
+    "license": "apache-2.0",
+    "usage": "Optional dataset not downloaded; metadata inspected only.",
+    "accessed": "2026-10-02"
+  }
+]

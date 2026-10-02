@@ -1,0 +1,1098 @@
+[
+  {
+    "number": 1,
+    "tz_text": "1. Claude Fable 5 & Claude Mythos 5 System Card - Anthropic. Первичный источник по Mythos/Fable 5; illegible reasoning, invented jargon, необычная пунктуация и emoji.\nСтраница: https://www.anthropic.com/system-cards\nПолный текст: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
+    "url": "https://www.anthropic.com/system-cards",
+    "pdf_url": "https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf",
+    "error": "HTTP Error 403: Forbidden",
+    "pdf_error": "HTTP Error 403: Forbidden",
+    "http_status": 200,
+    "extracted_title": "System Card Claude Fable 5 and Claude Mythos 5",
+    "metadata": {
+      "citation_title": [
+        "Claude Fable 5 & Claude Mythos 5 System Card"
+      ],
+      "citation_author": [
+        "Anthropic"
+      ],
+      "citation_date": [
+        "2026/06/09"
+      ]
+    },
+    "verification": "Official current PDF downloaded; 317 pages. Original TZ URL inaccessible; replaced with link from official system cards page."
+  },
+  {
+    "number": 2,
+    "tz_text": "2. Reasoning Models Struggle to Control their Chains of Thought - Yueh-Han et al.. ICML 2026; CoT controllability и риск намеренного сокрытия признаков поведения.\nСтраница: https://proceedings.mlr.press/v306/yueh-han26a.html\nПолный текст: https://raw.githubusercontent.com/mlresearch/v306/main/assets/yueh-han26a/yueh-han26a.pdf",
+    "url": "https://proceedings.mlr.press/v306/yueh-han26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yueh-han26a/yueh-han26a.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_publisher": [
+        "PMLR"
+      ],
+      "citation_title": [
+        "Reasoning Models Struggle to Control their Chains of Thought"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_abstract_html_url": [
+        "https://proceedings.mlr.press/v306/yueh-han26a.html"
+      ],
+      "citation_pdf_url": [
+        "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yueh-han26a/yueh-han26a.pdf"
+      ],
+      "citation_firstpage": [
+        "152359"
+      ],
+      "citation_lastpage": [
+        "152387"
+      ],
+      "citation_author": [
+        "Chen Yueh-Han",
+        "Robert Mccarthy",
+        "Bruce W. Lee",
+        "He He",
+        "Micah Carroll",
+        "Tomek Korbak"
+      ],
+      "citation_publication_date": [
+        "2026/09/29"
+      ],
+      "citation_inbook_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_conference_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_issn": [
+        "2640-3498"
+      ]
+    },
+    "extracted_title": "Reasoning Models Struggle to Control their Chains of Thought"
+  },
+  {
+    "number": 3,
+    "tz_text": "3. Monitoring Monitorability - Guan et al.. ICML 2026; базовая работа по измерению monitorability.\nСтраница: https://proceedings.mlr.press/v306/guan26h.html\nПолный текст: https://raw.githubusercontent.com/mlresearch/v306/main/assets/guan26h/guan26h.pdf",
+    "url": "https://proceedings.mlr.press/v306/guan26h.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/guan26h/guan26h.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_publisher": [
+        "PMLR"
+      ],
+      "citation_title": [
+        "Monitoring Monitorability"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_abstract_html_url": [
+        "https://proceedings.mlr.press/v306/guan26h.html"
+      ],
+      "citation_pdf_url": [
+        "https://raw.githubusercontent.com/mlresearch/v306/main/assets/guan26h/guan26h.pdf"
+      ],
+      "citation_firstpage": [
+        "37538"
+      ],
+      "citation_lastpage": [
+        "37602"
+      ],
+      "citation_author": [
+        "Melody Y. Guan",
+        "Miles Wang",
+        "Micah Carroll",
+        "Zehao Dou",
+        "Annie Y. Wei",
+        "Marcus Williams",
+        "Benjamin Arnav",
+        "Joost Huizinga",
+        "Ian D Kivlichan",
+        "Amelia Glaese",
+        "Jakub Pachocki",
+        "Bowen Baker"
+      ],
+      "citation_publication_date": [
+        "2026/09/29"
+      ],
+      "citation_inbook_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_conference_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_issn": [
+        "2640-3498"
+      ]
+    },
+    "extracted_title": "Monitoring Monitorability"
+  },
+  {
+    "number": 4,
+    "tz_text": "4. MonitorBench: A Comprehensive Benchmark for Chain-of-Thought Monitorability in Large Language Models - Wang et al.. COLM 2026 / arXiv; 1514 тестовых экземпляров, 19 задач, 7 категорий.\nСтраница: https://arxiv.org/abs/2603.28590\nПолный текст: https://arxiv.org/pdf/2603.28590",
+    "url": "https://arxiv.org/abs/2603.28590",
+    "pdf_url": "https://arxiv.org/pdf/2603.28590",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "MonitorBench: A Comprehensive Benchmark for Chain-of-Thought Monitorability in Large Language Models"
+      ],
+      "citation_author": [
+        "Wang, Han",
+        "Sun, Yifan",
+        "Ko, Brian",
+        "Talati, Mann",
+        "Gong, Jiawen",
+        "Li, Zimeng",
+        "Yu, Naicheng",
+        "Yu, Xucheng",
+        "Shen, Wei",
+        "Jolly, Vedant",
+        "Zhang, Huan"
+      ],
+      "citation_date": [
+        "2026/03/30"
+      ],
+      "citation_online_date": [
+        "2026/09/28"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2603.28590"
+      ],
+      "citation_arxiv_id": [
+        "2603.28590"
+      ]
+    },
+    "extracted_title": "MonitorBench: A Comprehensive Benchmark for Chain-of-Thought Monitorability in Large Language Models"
+  },
+  {
+    "number": 5,
+    "tz_text": "5. Analyzing and Improving Chain-of-Thought Monitorability Through Information Theory - Anwar et al.. Информационно-теоретическая постановка; mutual information, information gap, elicitation error.\nСтраница: https://arxiv.org/abs/2602.18297\nПолный текст: https://arxiv.org/pdf/2602.18297",
+    "url": "https://arxiv.org/abs/2602.18297",
+    "pdf_url": "https://arxiv.org/pdf/2602.18297",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Analyzing and Improving Chain-of-Thought Monitorability Through Information Theory"
+      ],
+      "citation_author": [
+        "Anwar, Usman",
+        "Bakker, Tim",
+        "Kianfar, Dana",
+        "Pinneri, Cristina",
+        "Louizos, Christos"
+      ],
+      "citation_date": [
+        "2026/02/20"
+      ],
+      "citation_online_date": [
+        "2026/02/20"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2602.18297"
+      ],
+      "citation_arxiv_id": [
+        "2602.18297"
+      ]
+    },
+    "extracted_title": "Analyzing and Improving Chain-of-Thought Monitorability Through Information Theory"
+  },
+  {
+    "number": 6,
+    "tz_text": "6. Faithfulness as Information Flow: Evaluating and Training Faithful Chain-of-Thought Reasoning - Jia, Benton, Easley. Faithfulness как поток информации; энтропийные и causal diagnostics.\nСтраница: https://arxiv.org/abs/2605.24286\nПолный текст: https://arxiv.org/pdf/2605.24286",
+    "url": "https://arxiv.org/abs/2605.24286",
+    "pdf_url": "https://arxiv.org/pdf/2605.24286",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Faithfulness as Information Flow: Evaluating and Training Faithful Chain-of-Thought Reasoning"
+      ],
+      "citation_author": [
+        "Jia, Jinghan",
+        "Benton, Joe",
+        "Easley, Eric"
+      ],
+      "citation_date": [
+        "2026/05/22"
+      ],
+      "citation_online_date": [
+        "2026/05/22"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2605.24286"
+      ],
+      "citation_arxiv_id": [
+        "2605.24286"
+      ]
+    },
+    "extracted_title": "Faithfulness as Information Flow: Evaluating and Training Faithful Chain-of-Thought Reasoning"
+  },
+  {
+    "number": 7,
+    "tz_text": "7. Reasoning Traces Shape Outputs but Models Won’t Say So - Hao et al.. ACL 2026; Thought Injection, 45k samples, причинное влияние traces и non-disclosure.\nСтраница: https://aclanthology.org/2026.acl-long.1986/\nПолный текст: https://aclanthology.org/2026.acl-long.1986.pdf",
+    "url": "https://aclanthology.org/2026.acl-long.1986/",
+    "pdf_url": "https://aclanthology.org/2026.acl-long.1986.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Reasoning Traces Shape Outputs but Models Won’t Say So"
+      ],
+      "citation_author": [
+        "Yijie Hao",
+        "Lingjie Chen",
+        "Ali Emami",
+        "Joyce C. Ho"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.acl-long.1986.pdf"
+      ],
+      "citation_firstpage": [
+        "42852"
+      ],
+      "citation_lastpage": [
+        "42878"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.acl-long.1986"
+      ]
+    },
+    "extracted_title": "Reasoning Traces Shape Outputs but Models Won’t Say So"
+  },
+  {
+    "number": 8,
+    "tz_text": "8. Is Chain-of-Thought Really Not Explainability? Chain-of-Thought Can Be Faithful without Hint Verbalization - Zaman, Srivastava. ACL 2026; CoT как потенциально lossy compression, критика узкого критерия faithfulness.\nСтраница: https://aclanthology.org/2026.acl-long.2217/\nПолный текст: https://aclanthology.org/2026.acl-long.2217.pdf",
+    "url": "https://aclanthology.org/2026.acl-long.2217/",
+    "pdf_url": "https://aclanthology.org/2026.acl-long.2217.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Is Chain-of-Thought Really Not Explainability? Chain-of-Thought Can Be Faithful without Hint Verbalization"
+      ],
+      "citation_author": [
+        "Kerem Zaman",
+        "Shashank Srivastava"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.acl-long.2217.pdf"
+      ],
+      "citation_firstpage": [
+        "48008"
+      ],
+      "citation_lastpage": [
+        "48030"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.acl-long.2217"
+      ]
+    },
+    "extracted_title": "Is Chain-of-Thought Really Not Explainability? Chain-of-Thought Can Be Faithful without Hint Verbalization"
+  },
+  {
+    "number": 9,
+    "tz_text": "9. LLMs Faithfully and Iteratively Compute Answers During CoT: A Systematic Analysis With Multi-step Arithmetics - Kudo et al.. Findings EACL 2026; причинная роль последовательных шагов CoT.\nСтраница: https://aclanthology.org/2026.findings-eacl.59/\nПолный текст: https://aclanthology.org/2026.findings-eacl.59.pdf",
+    "url": "https://aclanthology.org/2026.findings-eacl.59/",
+    "pdf_url": "https://aclanthology.org/2026.findings-eacl.59.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "LLMs Faithfully and Iteratively Compute Answers During CoT: A Systematic Analysis With Multi-step Arithmetics"
+      ],
+      "citation_author": [
+        "Keito Kudo",
+        "Yoichi Aoki",
+        "Tatsuki Kuribayashi",
+        "Shusaku Sone",
+        "Masaya Taniguchi",
+        "Ana Brassard",
+        "Keisuke Sakaguchi",
+        "Kentaro Inui"
+      ],
+      "citation_conference_title": [
+        "Findings of the Association for Computational Linguistics: EACL 2026"
+      ],
+      "citation_publication_date": [
+        "2026/3"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.findings-eacl.59.pdf"
+      ],
+      "citation_firstpage": [
+        "1114"
+      ],
+      "citation_lastpage": [
+        "1153"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.findings-eacl.59"
+      ]
+    },
+    "extracted_title": "LLMs Faithfully and Iteratively Compute Answers During CoT: A Systematic Analysis With Multi-step Arithmetics"
+  },
+  {
+    "number": 10,
+    "tz_text": "10. NSF-CoT: Neuro-Symbolic Formal Verification of Chain-of-Thought Faithfulness in Contextual Question Answering - Pramanik et al.. Findings ACL 2026; groundedness, validity, utility на уровне шагов.\nСтраница: https://aclanthology.org/2026.findings-acl.516/\nПолный текст: https://aclanthology.org/2026.findings-acl.516.pdf",
+    "url": "https://aclanthology.org/2026.findings-acl.516/",
+    "pdf_url": "https://aclanthology.org/2026.findings-acl.516.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "NSF-CoT: Neuro-Symbolic Formal Verification of Chain-of-Thought Faithfulness in Contextual Question Answering"
+      ],
+      "citation_author": [
+        "Vishal Pramanik",
+        "Maisha Maliha",
+        "Nathaniel D. Bastian",
+        "Alvaro Velasquez",
+        "Susmit Jha",
+        "Sumit Kumar Jha"
+      ],
+      "citation_conference_title": [
+        "Findings of the Association for Computational Linguistics: ACL 2026"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.findings-acl.516.pdf"
+      ],
+      "citation_firstpage": [
+        "10645"
+      ],
+      "citation_lastpage": [
+        "10663"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.findings-acl.516"
+      ]
+    },
+    "extracted_title": "NSF-CoT: Neuro-Symbolic Formal Verification of Chain-of-Thought Faithfulness in Contextual Question Answering"
+  },
+  {
+    "number": 11,
+    "tz_text": "11. C2-Faith: Benchmarking LLM Judges for Causal and Coverage Faithfulness in Chain-of-Thought Reasoning - Mittal, Arike. Benchmark причинности и полноты CoT; ограничения LLM-as-a-judge.\nСтраница: https://arxiv.org/abs/2603.05167\nПолный текст: https://arxiv.org/pdf/2603.05167",
+    "url": "https://arxiv.org/abs/2603.05167",
+    "pdf_url": "https://arxiv.org/pdf/2603.05167",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "C2-Faith: Benchmarking LLM Judges for Causal and Coverage Faithfulness in Chain-of-Thought Reasoning"
+      ],
+      "citation_author": [
+        "Mittal, Avni",
+        "Arike, Rauno"
+      ],
+      "citation_date": [
+        "2026/03/05"
+      ],
+      "citation_online_date": [
+        "2026/06/11"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2603.05167"
+      ],
+      "citation_arxiv_id": [
+        "2603.05167"
+      ]
+    },
+    "extracted_title": "C2-Faith: Benchmarking LLM Judges for Causal and Coverage Faithfulness in Chain-of-Thought Reasoning"
+  },
+  {
+    "number": 12,
+    "tz_text": "12. Disentangling the Effects of Unlearning in Measuring Parametric Faithfulness of Chain-of-Thought - Mitsuhashi et al.. ACL SRW 2026; методологические артефакты измерения faithfulness.\nСтраница: https://aclanthology.org/2026.acl-srw.36/\nПолный текст: https://aclanthology.org/2026.acl-srw.36.pdf",
+    "url": "https://aclanthology.org/2026.acl-srw.36/",
+    "pdf_url": "https://aclanthology.org/2026.acl-srw.36.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Disentangling the Effects of Unlearning in Measuring Parametric Faithfulness of Chain-of-Thought"
+      ],
+      "citation_author": [
+        "Ryo Mitsuhashi",
+        "Gaku Morio",
+        "Ayana Niwa",
+        "Masahiro Kaneko",
+        "Kentaro Inui",
+        "Terufumi Morishita",
+        "Yuta Koreeda",
+        "Yasuhiro Sogawa"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.acl-srw.36.pdf"
+      ],
+      "citation_firstpage": [
+        "413"
+      ],
+      "citation_lastpage": [
+        "419"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.acl-srw.36"
+      ]
+    },
+    "extracted_title": "Disentangling the Effects of Unlearning in Measuring Parametric Faithfulness of Chain-of-Thought"
+  },
+  {
+    "number": 13,
+    "tz_text": "13. How Do Answer Tokens Read Reasoning Traces? Self-Reading Patterns in Thinking LLMs for Quantitative Reasoning - Chen et al.. Findings ACL 2026; attention от ответа к reasoning trace и semantic anchors.\nСтраница: https://aclanthology.org/2026.findings-acl.1507/\nПолный текст: https://aclanthology.org/2026.findings-acl.1507.pdf",
+    "url": "https://aclanthology.org/2026.findings-acl.1507/",
+    "pdf_url": "https://aclanthology.org/2026.findings-acl.1507.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "How Do Answer Tokens Read Reasoning Traces? Self-Reading Patterns in Thinking LLMs for Quantitative Reasoning"
+      ],
+      "citation_author": [
+        "Haoyang Chen",
+        "Yi Liu",
+        "Jianzhi Shao",
+        "Tao Zhang",
+        "Chengfu Huo",
+        "Wei Hu"
+      ],
+      "citation_conference_title": [
+        "Findings of the Association for Computational Linguistics: ACL 2026"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.findings-acl.1507.pdf"
+      ],
+      "citation_firstpage": [
+        "30150"
+      ],
+      "citation_lastpage": [
+        "30166"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.findings-acl.1507"
+      ]
+    },
+    "extracted_title": "How Do Answer Tokens Read Reasoning Traces? Self-Reading Patterns in Thinking LLMs for Quantitative Reasoning"
+  },
+  {
+    "number": 14,
+    "tz_text": "14. Modeling Hierarchical Thinking in Large Reasoning Models - Shahariar et al.. ICML 2026; шесть абстрактных состояний reasoning и переходы между ними.\nСтраница: https://proceedings.mlr.press/v306/shahariar26a.html\nПолный текст: https://raw.githubusercontent.com/mlresearch/v306/main/assets/shahariar26a/shahariar26a.pdf",
+    "url": "https://proceedings.mlr.press/v306/shahariar26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shahariar26a/shahariar26a.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_publisher": [
+        "PMLR"
+      ],
+      "citation_title": [
+        "Modeling Hierarchical Thinking in Large Reasoning Models"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_abstract_html_url": [
+        "https://proceedings.mlr.press/v306/shahariar26a.html"
+      ],
+      "citation_pdf_url": [
+        "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shahariar26a/shahariar26a.pdf"
+      ],
+      "citation_firstpage": [
+        "109654"
+      ],
+      "citation_lastpage": [
+        "109679"
+      ],
+      "citation_author": [
+        "G M Shahariar",
+        "Erfan Shayegani",
+        "Ali Nazari",
+        "Nael Abu-Ghazaleh"
+      ],
+      "citation_publication_date": [
+        "2026/09/29"
+      ],
+      "citation_inbook_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_conference_title": [
+        "International Conference on Machine Learning"
+      ],
+      "citation_issn": [
+        "2640-3498"
+      ]
+    },
+    "extracted_title": "Modeling Hierarchical Thinking in Large Reasoning Models"
+  },
+  {
+    "number": 15,
+    "tz_text": "15. Do LLMs Really Need 10+ Thoughts for “Find the Time 1000 Days Later”? Towards Structural Understanding of LLM Overthinking - Zhang et al. / Google DeepMind collaborators. ACL 2026; структурный анализ sub-thoughts и overthinking.\nСтраница: https://aclanthology.org/2026.acl-long.773/\nПолный текст: https://aclanthology.org/2026.acl-long.773.pdf",
+    "url": "https://aclanthology.org/2026.acl-long.773/",
+    "pdf_url": "https://aclanthology.org/2026.acl-long.773.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Do LLMs Really Need 10+ Thoughts for “Find the Time 1000 Days Later”? Towards Structural Understanding of LLM Overthinking"
+      ],
+      "citation_author": [
+        "Xinliang Frederick Zhang",
+        "Anhad Mohananey",
+        "Alexandra Chronopoulou",
+        "Pinelopi Papalampidi",
+        "Somit Gupta",
+        "Tsendsuren Munkhdalai",
+        "Lu Wang",
+        "Shyam Upadhyay"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.acl-long.773.pdf"
+      ],
+      "citation_firstpage": [
+        "17005"
+      ],
+      "citation_lastpage": [
+        "17030"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.acl-long.773"
+      ]
+    },
+    "extracted_title": "Do LLMs Really Need 10+ Thoughts for “Find the Time 1000 Days Later”? Towards Structural Understanding of LLM Overthinking"
+  },
+  {
+    "number": 16,
+    "tz_text": "16. SeLaR: Selective Latent Reasoning in Large Language Models - Fu, Luo. ACL 2026; selective latent reasoning и entropy gating.\nСтраница: https://aclanthology.org/2026.acl-long.320/\nПолный текст: https://aclanthology.org/2026.acl-long.320.pdf",
+    "url": "https://aclanthology.org/2026.acl-long.320/",
+    "pdf_url": "https://aclanthology.org/2026.acl-long.320.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "SeLaR: Selective Latent Reasoning in Large Language Models"
+      ],
+      "citation_author": [
+        "Renyu Fu",
+        "Guibo Luo"
+      ],
+      "citation_conference_title": [
+        "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.acl-long.320.pdf"
+      ],
+      "citation_firstpage": [
+        "7073"
+      ],
+      "citation_lastpage": [
+        "7087"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.acl-long.320"
+      ]
+    },
+    "extracted_title": "SeLaR: Selective Latent Reasoning in Large Language Models"
+  },
+  {
+    "number": 17,
+    "tz_text": "17. LEPO: Latent Reasoning Policy Optimization for Large Language Models - Zhou et al.. Findings ACL 2026; RL непосредственно по continuous latent representations.\nСтраница: https://aclanthology.org/2026.findings-acl.707/\nПолный текст: https://aclanthology.org/2026.findings-acl.707.pdf",
+    "url": "https://aclanthology.org/2026.findings-acl.707/",
+    "pdf_url": "https://aclanthology.org/2026.findings-acl.707.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "LEPO: Latent Reasoning Policy Optimization for Large Language Models"
+      ],
+      "citation_author": [
+        "Yuyan Zhou",
+        "Jiarui Yu",
+        "Hande Dong",
+        "Zhezheng Hao",
+        "Hong Wang",
+        "Jianqing Zhang",
+        "Qiang Lin"
+      ],
+      "citation_conference_title": [
+        "Findings of the Association for Computational Linguistics: ACL 2026"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.findings-acl.707.pdf"
+      ],
+      "citation_firstpage": [
+        "14416"
+      ],
+      "citation_lastpage": [
+        "14427"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.findings-acl.707"
+      ]
+    },
+    "extracted_title": "LEPO: Latent Reasoning Policy Optimization for Large Language Models"
+  },
+  {
+    "number": 18,
+    "tz_text": "18. Lightweight Latent Reasoning for Narrative Tasks - Gurung, Whitammer, Lapata. TACL 2026; reasoning с latent tokens, сокращение явного reasoning.\nСтраница: https://aclanthology.org/2026.tacl-1.98/\nПолный текст: https://aclanthology.org/2026.tacl-1.98.pdf",
+    "url": "https://aclanthology.org/2026.tacl-1.98/",
+    "pdf_url": "https://aclanthology.org/2026.tacl-1.98.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Lightweight Latent Reasoning for Narrative Tasks"
+      ],
+      "citation_author": [
+        "Alexander Gurung",
+        "Esmeralda S. Whitammer",
+        "Mirella Lapata"
+      ],
+      "citation_journal_title": [
+        "Transactions of the Association for Computational Linguistics"
+      ],
+      "citation_volume": [
+        "14"
+      ],
+      "citation_publication_date": [
+        "2026"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.tacl-1.98.pdf"
+      ],
+      "citation_firstpage": [
+        "2163"
+      ],
+      "citation_lastpage": [
+        "2186"
+      ],
+      "citation_doi": [
+        "10.1162/tacl.a.796"
+      ]
+    },
+    "extracted_title": "Lightweight Latent Reasoning for Narrative Tasks"
+  },
+  {
+    "number": 19,
+    "tz_text": "19. ReasonXL: Shifting LLM Reasoning Language Without Sacrificing Performance - Gurgurov et al.. 2026; 2M+ параллельных reasoning traces на язык, representational analysis.\nСтраница: https://arxiv.org/abs/2604.12378\nПолный текст: https://arxiv.org/pdf/2604.12378",
+    "url": "https://arxiv.org/abs/2604.12378",
+    "pdf_url": "https://arxiv.org/pdf/2604.12378",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "ReasonXL: Shifting LLM Reasoning Language Without Sacrificing Performance"
+      ],
+      "citation_author": [
+        "Gurgurov, Daniil",
+        "Röhr, Tom",
+        "von Rohrscheidt, Sebastian",
+        "van Genabith, Josef",
+        "Löser, Alexander",
+        "Ostermann, Simon"
+      ],
+      "citation_date": [
+        "2026/04/14"
+      ],
+      "citation_online_date": [
+        "2026/04/14"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2604.12378"
+      ],
+      "citation_arxiv_id": [
+        "2604.12378"
+      ]
+    },
+    "extracted_title": "ReasonXL: Shifting LLM Reasoning Language Without Sacrificing Performance"
+  },
+  {
+    "number": 20,
+    "tz_text": "20. Shorthand for Thought: Compressing LLM Reasoning via Entropy-Guided Supertokens - Zhao et al.. 2026; entropy-guided supertokens и компрессия reasoning traces.\nСтраница: https://arxiv.org/abs/2604.26355\nПолный текст: https://arxiv.org/pdf/2604.26355",
+    "url": "https://arxiv.org/abs/2604.26355",
+    "pdf_url": "https://arxiv.org/pdf/2604.26355",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Shorthand for Thought: Compressing LLM Reasoning via Entropy-Guided Supertokens"
+      ],
+      "citation_author": [
+        "Zhao, Zhenyu",
+        "Land, Sander",
+        "Bikel, Daniel M.",
+        "Alshikh, Waseem"
+      ],
+      "citation_date": [
+        "2026/04/29"
+      ],
+      "citation_online_date": [
+        "2026/09/14"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2604.26355"
+      ],
+      "citation_arxiv_id": [
+        "2604.26355"
+      ]
+    },
+    "extracted_title": "Shorthand for Thought: Compressing LLM Reasoning via Entropy-Guided Supertokens"
+  },
+  {
+    "number": 21,
+    "tz_text": "21. Draft-Thinking: Learning Efficient Reasoning in Long Chain-of-Thought LLMs - Cao et al.. 2026; draft-style reasoning, trade-off длины и accuracy.\nСтраница: https://arxiv.org/abs/2603.00578\nПолный текст: https://arxiv.org/pdf/2603.00578",
+    "url": "https://arxiv.org/abs/2603.00578",
+    "pdf_url": "https://arxiv.org/pdf/2603.00578",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Draft-Thinking: Learning Efficient Reasoning in Long Chain-of-Thought LLMs"
+      ],
+      "citation_author": [
+        "Cao, Jie",
+        "Lin, Tianwei",
+        "Fan, Zhenxuan",
+        "Yuan, Bo",
+        "Zhao, Ziyuan",
+        "Yan, Rolan",
+        "Zhang, Wenqiao",
+        "Tang, Siliang"
+      ],
+      "citation_date": [
+        "2026/02/28"
+      ],
+      "citation_online_date": [
+        "2026/02/28"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2603.00578"
+      ],
+      "citation_arxiv_id": [
+        "2603.00578"
+      ]
+    },
+    "extracted_title": "Draft-Thinking: Learning Efficient Reasoning in Long Chain-of-Thought LLMs"
+  },
+  {
+    "number": 22,
+    "tz_text": "22. Compress-Distill: Reasoning Trace Compression for Efficient Knowledge Distillation - Griot, Scotti, Abraham. 2026; 283k+ traces на teacher, compression-accuracy trade-off.\nСтраница: https://arxiv.org/abs/2606.05988\nПолный текст: https://arxiv.org/pdf/2606.05988",
+    "url": "https://arxiv.org/abs/2606.05988",
+    "pdf_url": "https://arxiv.org/pdf/2606.05988",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Compress-Distill: Reasoning Trace Compression for Efficient Knowledge Distillation"
+      ],
+      "citation_author": [
+        "Griot, Maxime",
+        "Scotti, Paul Steven",
+        "Abraham, Tanishq Mathew"
+      ],
+      "citation_date": [
+        "2026/06/04"
+      ],
+      "citation_online_date": [
+        "2026/06/04"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2606.05988"
+      ],
+      "citation_arxiv_id": [
+        "2606.05988"
+      ]
+    },
+    "extracted_title": "Compress-Distill: Reasoning Trace Compression for Efficient Knowledge Distillation"
+  },
+  {
+    "number": 23,
+    "tz_text": "23. Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning - Zhang et al.. 2026; компенсация информации, теряемой при агрессивном сжатии CoT.\nСтраница: https://arxiv.org/abs/2608.21265\nПолный текст: https://arxiv.org/pdf/2608.21265",
+    "url": "https://arxiv.org/abs/2608.21265",
+    "pdf_url": "https://arxiv.org/pdf/2608.21265",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning"
+      ],
+      "citation_author": [
+        "Zhang, Simeng",
+        "Chen, Yilong",
+        "Zhang, Wenyuan",
+        "Zhang, Zhenyu",
+        "Chen, Yao",
+        "Shang, Junyuan",
+        "Liu, Tingwen"
+      ],
+      "citation_date": [
+        "2026/08/21"
+      ],
+      "citation_online_date": [
+        "2026/08/26"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2608.21265"
+      ],
+      "citation_arxiv_id": [
+        "2608.21265"
+      ]
+    },
+    "extracted_title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning"
+  },
+  {
+    "number": 24,
+    "tz_text": "24. A State-Transition Framework for Efficient LLM Reasoning - Zhang et al.. ICLR 2026; состояние reasoning вместо явного хранения всей цепочки.\nСтраница: https://arxiv.org/abs/2602.01198\nПолный текст: https://arxiv.org/pdf/2602.01198",
+    "url": "https://arxiv.org/abs/2602.01198",
+    "pdf_url": "https://arxiv.org/pdf/2602.01198",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "A State-Transition Framework for Efficient LLM Reasoning"
+      ],
+      "citation_author": [
+        "Zhang, Liang",
+        "Zhao, Yu",
+        "Wang, Longyue",
+        "Shi, Tianqi",
+        "Luo, Weihua",
+        "Zhang, Kaifu",
+        "Su, Jinsong"
+      ],
+      "citation_date": [
+        "2026/02/01"
+      ],
+      "citation_online_date": [
+        "2026/02/01"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2602.01198"
+      ],
+      "citation_arxiv_id": [
+        "2602.01198"
+      ]
+    },
+    "extracted_title": "A State-Transition Framework for Efficient LLM Reasoning"
+  },
+  {
+    "number": 25,
+    "tz_text": "25. When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models - Zhang et al.. ICLR 2026; mechanistic analysis влияния quantization/distillation/pruning на reasoning.\nСтраница: https://proceedings.iclr.cc/paper_files/paper/2026/hash/665654759cdf2114c0cbe2b8e501e00e-Abstract-Conference.html\nПолный текст: https://proceedings.iclr.cc/paper_files/paper/2026/file/665654759cdf2114c0cbe2b8e501e00e-Paper-Conference.pdf",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/665654759cdf2114c0cbe2b8e501e00e-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/665654759cdf2114c0cbe2b8e501e00e-Paper-Conference.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models"
+      ],
+      "citation_author": [
+        "Zhang, Nan",
+        "Kwek, Eugene",
+        "Zhang, Yusen",
+        "Nguyen, Hieu",
+        "Mitra, Prasenjit",
+        "Zhang, Rui"
+      ],
+      "citation_journal_title": [
+        "International Conference on Learning Representations"
+      ],
+      "citation_volume": [
+        "2026"
+      ],
+      "citation_firstpage": [
+        "62680"
+      ],
+      "citation_lastpage": [
+        "62706"
+      ],
+      "citation_pdf_url": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/665654759cdf2114c0cbe2b8e501e00e-Paper-Conference.pdf"
+      ],
+      "citation_publication_date": [
+        "2026-04-20"
+      ]
+    },
+    "extracted_title": "When Reasoning Meets Compression: Understanding the Effects of LLMs Compression on Large Reasoning Models"
+  },
+  {
+    "number": 26,
+    "tz_text": "26. Conceptual Steganography - Zhou, May. 2026; скрытый канал через высокоуровневые паттерны reasoning.\nСтраница: https://arxiv.org/abs/2605.26537\nПолный текст: https://arxiv.org/pdf/2605.26537",
+    "url": "https://arxiv.org/abs/2605.26537",
+    "pdf_url": "https://arxiv.org/pdf/2605.26537",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Conceptual Steganography"
+      ],
+      "citation_author": [
+        "Zhou, Zhejian",
+        "May, Jonathan"
+      ],
+      "citation_date": [
+        "2026/05/26"
+      ],
+      "citation_online_date": [
+        "2026/05/26"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2605.26537"
+      ],
+      "citation_arxiv_id": [
+        "2605.26537"
+      ]
+    },
+    "extracted_title": "Conceptual Steganography"
+  },
+  {
+    "number": 27,
+    "tz_text": "27. NEST: Nascent Encoded Steganographic Thoughts - Karpov. 2026; 28 моделей, hidden reasoning, monitor evasion, simplified hidden task.\nСтраница: https://arxiv.org/abs/2602.14095\nПолный текст: https://arxiv.org/pdf/2602.14095",
+    "url": "https://arxiv.org/abs/2602.14095",
+    "pdf_url": "https://arxiv.org/pdf/2602.14095",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "NEST: Nascent Encoded Steganographic Thoughts"
+      ],
+      "citation_author": [
+        "Karpov, Artem"
+      ],
+      "citation_date": [
+        "2026/02/15"
+      ],
+      "citation_online_date": [
+        "2026/07/06"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2602.14095"
+      ],
+      "citation_arxiv_id": [
+        "2602.14095"
+      ]
+    },
+    "extracted_title": "NEST: Nascent Encoded Steganographic Thoughts"
+  },
+  {
+    "number": 28,
+    "tz_text": "28. Learning Steganography Is Easy, Learning Steganographic Reasoning Is Hard - Schulz, Fülle, Fruengel. 2026; различает encoded reasoning, steganographic messaging и steganographic reasoning.\nСтраница: https://arxiv.org/abs/2609.39838\nПолный текст: https://arxiv.org/pdf/2609.39838",
+    "url": "https://arxiv.org/abs/2609.39838",
+    "pdf_url": "https://arxiv.org/pdf/2609.39838",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "Learning Steganography Is Easy, Learning Steganographic Reasoning Is Hard"
+      ],
+      "citation_author": [
+        "Schulz, Julian",
+        "Fülle, Lukas",
+        "Fruengel, Rieke"
+      ],
+      "citation_date": [
+        "2026/09/30"
+      ],
+      "citation_online_date": [
+        "2026/09/30"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2609.39838"
+      ],
+      "citation_arxiv_id": [
+        "2609.39838"
+      ]
+    },
+    "extracted_title": "Learning Steganography Is Easy, Learning Steganographic Reasoning Is Hard"
+  },
+  {
+    "number": 29,
+    "tz_text": "29. TRACE: An Evidence-Grounded Benchmark for Safety Evaluation of Large Reasoning Models - Wu et al.. 2026; safety analysis reasoning traces, prompts и final responses.\nСтраница: https://arxiv.org/abs/2608.24232\nПолный текст: https://arxiv.org/pdf/2608.24232",
+    "url": "https://arxiv.org/abs/2608.24232",
+    "pdf_url": "https://arxiv.org/pdf/2608.24232",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "TRACE: An Evidence-Grounded Benchmark for Safety Evaluation of Large Reasoning Models"
+      ],
+      "citation_author": [
+        "Wu, Zhenyu",
+        "Chen, Siyuan",
+        "Yang, Changchun",
+        "Dong, Jiaqi",
+        "Zhou, Min",
+        "Almadan, Ali",
+        "Hammad, Talal",
+        "Wahbo, Faisal",
+        "Tora, Aminullah",
+        "Alshahrani, Mona",
+        "Gao, Xin"
+      ],
+      "citation_date": [
+        "2026/08/25"
+      ],
+      "citation_online_date": [
+        "2026/08/25"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2608.24232"
+      ],
+      "citation_arxiv_id": [
+        "2608.24232"
+      ]
+    },
+    "extracted_title": "TRACE: An Evidence-Grounded Benchmark for Safety Evaluation of Large Reasoning Models"
+  },
+  {
+    "number": 30,
+    "tz_text": "30. SPD-Faith Bench: Diagnosing and Improving Faithfulness in Chain-of-Thought for Multimodal Large Language Models - Lv et al.. Findings ACL 2026; отдельная методология faithfulness и evidence localization.\nСтраница: https://aclanthology.org/2026.findings-acl.995/\nПолный текст: https://aclanthology.org/2026.findings-acl.995.pdf",
+    "url": "https://aclanthology.org/2026.findings-acl.995/",
+    "pdf_url": "https://aclanthology.org/2026.findings-acl.995.pdf",
+    "http_status": 200,
+    "metadata": {
+      "citation_title": [
+        "SPD-Faith Bench: Diagnosing and Improving Faithfulness in Chain-of-Thought for Multimodal Large Language Models"
+      ],
+      "citation_author": [
+        "Weijiang Lv",
+        "Yaoxuan Feng",
+        "Xiaobo Xia",
+        "Jiayu Wang",
+        "Yan Jing",
+        "Wenchao Chen",
+        "Bo Chen"
+      ],
+      "citation_conference_title": [
+        "Findings of the Association for Computational Linguistics: ACL 2026"
+      ],
+      "citation_publication_date": [
+        "2026/7"
+      ],
+      "citation_pdf_url": [
+        "https://aclanthology.org/2026.findings-acl.995.pdf"
+      ],
+      "citation_firstpage": [
+        "19875"
+      ],
+      "citation_lastpage": [
+        "19927"
+      ],
+      "citation_doi": [
+        "10.18653/v1/2026.findings-acl.995"
+      ]
+    },
+    "extracted_title": "SPD-Faith Bench: Diagnosing and Improving Faithfulness in Chain-of-Thought for Multimodal Large Language Models"
+  }
+]

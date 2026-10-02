@@ -1,0 +1,130 @@
+{
+  "_id": "692a4ab56e92b649046909c9",
+  "id": "ameek/measuring_cot_monitorability_transcripts",
+  "author": "ameek",
+  "sha": "a7a8b25ae467db9d80d63e55ac053b48753b2d36",
+  "lastModified": "2025-11-30T07:46:04.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:question-answering",
+    "task_categories:text-generation",
+    "language:en",
+    "license:other",
+    "size_categories:100K<n<1M",
+    "format:parquet",
+    "modality:tabular",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:mlcroissant",
+    "library:polars",
+    "arxiv:2510.27378",
+    "arxiv:2210.09261",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tMeasuring Chain-of-Thought Monitorability Transcripts\n\t\n\nThis dataset contains model transcripts from language models evaluated on MMLU, BIG-Bench Hard (BBH), and GPQA Diamond. Each sample group includes a baseline response (no cue) paired with five adaptive variations where different cues were injected to test chain-of-thought faithfulness.\nWe use this dataset to measure how faithfully models represent their reasoning processes in their chain-of-thought outputs. By comparing… See the full description on the dataset page: https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts.",
+  "downloads": 151,
+  "likes": 1,
+  "cardData": {
+    "license": "other",
+    "license_name": "mit-with-model-training-restrictions",
+    "license_link": "LICENSE",
+    "task_categories": [
+      "question-answering",
+      "text-generation"
+    ],
+    "language": [
+      "en"
+    ],
+    "size_categories": [
+      "100K<n<1M"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "bbh/bbh_anthropic_claude_3_5_sonnet.parquet"
+    },
+    {
+      "rfilename": "bbh/bbh_anthropic_claude_3_7_sonnet.parquet"
+    },
+    {
+      "rfilename": "bbh/bbh_deepseek_deepseek_chat_v3_0324.parquet"
+    },
+    {
+      "rfilename": "bbh/bbh_deepseek_deepseek_r1_0528.parquet"
+    },
+    {
+      "rfilename": "bbh/bbh_qwen_qwen3_235b_a22b_2507.parquet"
+    },
+    {
+      "rfilename": "bbh/bbh_qwen_qwen3_235b_a22b_thinking_2507.parquet"
+    },
+    {
+      "rfilename": "bbh/bbh_qwen_qwen_2.5_72b_instruct.parquet"
+    },
+    {
+      "rfilename": "bbh/bbh_qwen_qwq_32b.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_anthropic_claude_3_5_sonnet.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_anthropic_claude_3_7_sonnet.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_deepseek_deepseek_chat_v3_0324.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_deepseek_deepseek_r1_0528.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_qwen_qwen3_235b_a22b_2507.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_qwen_qwen3_235b_a22b_thinking_2507.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_qwen_qwen_2.5_72b_instruct.parquet"
+    },
+    {
+      "rfilename": "gpqa/gpqa_diamond_qwen_qwq_32b.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_anthropic_claude_3_5_sonnet.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_anthropic_claude_3_7_sonnet.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_deepseek_deepseek_chat_v3_0324.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_deepseek_deepseek_r1_0528.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_qwen_qwen3_235b_a22b_2507.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_qwen_qwen3_235b_a22b_thinking_2507.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_qwen_qwen_2.5_72b_instruct.parquet"
+    },
+    {
+      "rfilename": "mmlu/mmlu_qwen_qwq_32b.parquet"
+    }
+  ],
+  "createdAt": "2025-11-29T01:21:57.000Z",
+  "usedStorage": 4517345130
+}

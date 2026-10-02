@@ -1,0 +1,19 @@
+{
+  "seed": 20261002,
+  "revision": "a7a8b25ae467db9d80d63e55ac053b48753b2d36",
+  "selection": "All baseline core_ids with nonempty reasoning from all four exposing models; no per-task cap",
+  "primary_width": 128,
+  "sensitivity_widths": [256, 512],
+  "positions": "Complete raw whitespace-token windows at beginning, middle and end; identical offsets deduplicated; arithmetic mean per trace",
+  "pair_eligibility": "All four models must have at least width tokens; exclude incomplete windows; each question contributes one row per model",
+  "primary_metrics": ["zlib_ratio", "symbol_density", "punctuation_density", "operator_arrow_density", "whitespace_ratio", "uppercase_ratio", "low_frequency_fraction", "repeat_4gram"],
+  "secondary_metrics": ["char_entropy", "mean_run_without_whitespace", "emoji_density", "function_word_fraction"],
+  "bootstrap_repetitions": 1000,
+  "bootstrap_unit": "task then question within task, paired across all models",
+  "annotation_questions_per_stratum": 8,
+  "annotation_strata": ["high_symbol_density", "high_punctuation_density", "seeded_random"],
+  "annotation_excerpt_tokens": 40,
+  "annotation_status": "AI-assisted initial coding; independent human annotation and agreement pending",
+  "correctness": "Excluded from revised objectives and inferential analysis; retained as original corpus metadata",
+  "constructs": "Brevity=observed whitespace-token length; zlib ratio=algorithmic regularity; linguistic shortening=annotated grammatical and symbolic phenomena; no human readability measure"
+}

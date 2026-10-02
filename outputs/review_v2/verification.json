@@ -1,0 +1,24 @@
+{
+  "checks": "PASS",
+  "raw_excerpt_offsets_verified": 96,
+  "independent_human_annotation": false,
+  "agreement": null,
+  "resampling_reproduction": "all 48 primary comparisons match at rtol=1e-10, atol=1e-12; deterministic reproduction, not independent validation",
+  "rendering": {
+    "article_final": {
+      "pages": 6,
+      "pdf_sha256": "06a9b1c16c94f3b02020d92a79a04481b663af9c120aff96f1a635027a94f27b",
+      "docx_sha256": "b7a534dc4b01abf8f7ffc4fd742d63de99c1d47a34db99884db05e0640081673",
+      "visual_inspection": "pending"
+    },
+    "abstract_1page": {
+      "pages": 1,
+      "pdf_sha256": "0fae1cf64c9d895cc7f8923c48d815a44c4d6c3e3242be32b2e7d84e89507e9f",
+      "docx_sha256": "5d45bba9eae8bc95f163a01593d9ad980f0cfaeecde20a3ee59843023bf80f62",
+      "visual_inspection": "pending"
+    }
+  },
+  "article_characters": 18697,
+  "references": 14,
+  "source_quotes_verified": true
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/LICENSE",
+    "path": "data\\raw\\LICENSE",
+    "bytes": 2630,
+    "sha256": "c0dadc3d3f06dc19f2fed56f39c8d04d4d4a8a5cc8cf06522ee9d34107fd2a31"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/README.md",
+    "path": "data\\raw\\README.md",
+    "bytes": 7051,
+    "sha256": "8460079e18374955310b16b82a25e2de9c7e9542f268d2698c01ffb4caddb616"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_anthropic_claude_3_5_sonnet.parquet",
+    "path": "data\\raw\\bbh\\bbh_anthropic_claude_3_5_sonnet.parquet",
+    "bytes": 6056246,
+    "sha256": "17f4d087ea0864c79c543ed1d19c4aaae7ff43aab351ee0dfcd32cd1c23a87ab"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_anthropic_claude_3_7_sonnet.parquet",
+    "path": "data\\raw\\bbh\\bbh_anthropic_claude_3_7_sonnet.parquet",
+    "bytes": 36718083,
+    "sha256": "1793dad597a222dbf0aec92f8bc19d5542f1d6f35148d1357b6d2b8de822920c"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_deepseek_deepseek_chat_v3_0324.parquet",
+    "path": "data\\raw\\bbh\\bbh_deepseek_deepseek_chat_v3_0324.parquet",
+    "bytes": 11438192,
+    "sha256": "dc809fbe684db71b32b330f28a2d92a287925c63c32b2bdb88cfabf668074b2d"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_deepseek_deepseek_r1_0528.parquet",
+    "path": "data\\raw\\bbh\\bbh_deepseek_deepseek_r1_0528.parquet",
+    "bytes": 74468742,
+    "sha256": "23f994fe10a012fac876637d71b6c5794c32cc18ae2cad6b03e3c9da29ce683e"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_qwen_qwen3_235b_a22b_2507.parquet",
+    "path": "data\\raw\\bbh\\bbh_qwen_qwen3_235b_a22b_2507.parquet",
+    "bytes": 25106439,
+    "sha256": "bc3be8b251e5e90acf97ef0b530dfdc30d2da5dd064193bd60571b85e44d8f43"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_qwen_qwen3_235b_a22b_thinking_2507.parquet",
+    "path": "data\\raw\\bbh\\bbh_qwen_qwen3_235b_a22b_thinking_2507.parquet",
+    "bytes": 101148432,
+    "sha256": "0da4c505e3cc0b3b7e794a962e33969f6765c2e156f0442e76a23c2812798d6b"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_qwen_qwen_2.5_72b_instruct.parquet",
+    "path": "data\\raw\\bbh\\bbh_qwen_qwen_2.5_72b_instruct.parquet",
+    "bytes": 5485404,
+    "sha256": "cdda10e94980b2e01565cdc1246eace2c96a4706c509884646381b4556dc9d2f"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/bbh/bbh_qwen_qwq_32b.parquet",
+    "path": "data\\raw\\bbh\\bbh_qwen_qwq_32b.parquet",
+    "bytes": 53344677,
+    "sha256": "ed336da7cb09ca6c73bfda93efc0fe4ac46c1610d24a7eb61ccda2f5c8fa772d"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_anthropic_claude_3_5_sonnet.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_anthropic_claude_3_5_sonnet.parquet",
+    "bytes": 711285,
+    "sha256": "b7cc98b7a3f75c2ba2502977156226e8ecd8d06c3cbbab35c2e93c230770c552"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_anthropic_claude_3_7_sonnet.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_anthropic_claude_3_7_sonnet.parquet",
+    "bytes": 4185156,
+    "sha256": "b14ca54cb6b80fbb2f540ed521f698db8d7b7a47602c872bfad8f80d37518719"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_deepseek_deepseek_chat_v3_0324.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_deepseek_deepseek_chat_v3_0324.parquet",
+    "bytes": 1347231,
+    "sha256": "8e6e00fee029b77da3826e22d094d402cc960f42234e5d74cdc642c2599ecb53"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_deepseek_deepseek_r1_0528.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_deepseek_deepseek_r1_0528.parquet",
+    "bytes": 11101344,
+    "sha256": "d86d087dfe0cddb19a3b4ab0785042a094d4986fbb2bc5d6c0afc68a9c31f0c8"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_qwen_qwen3_235b_a22b_2507.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_qwen_qwen3_235b_a22b_2507.parquet",
+    "bytes": 8025277,
+    "sha256": "6f739f7b3657146f40ab489f8065dbd974ec920e07caf64f4f4e70c46f477006"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_qwen_qwen3_235b_a22b_thinking_2507.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_qwen_qwen3_235b_a22b_thinking_2507.parquet",
+    "bytes": 9339333,
+    "sha256": "efee874555677916392d357772c54cddb52d3c6efc98e22807afdd90bf6b5a1a"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_qwen_qwen_2.5_72b_instruct.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_qwen_qwen_2.5_72b_instruct.parquet",
+    "bytes": 990810,
+    "sha256": "3d4402fce3fbe597df37aff56e56f4782c4e9bee9a00b6b2fbd67f364a91ae30"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/gpqa/gpqa_diamond_qwen_qwq_32b.parquet",
+    "path": "data\\raw\\gpqa\\gpqa_diamond_qwen_qwq_32b.parquet",
+    "bytes": 6906055,
+    "sha256": "ea707b060b06b769b4bbeaaa0968894767998d194b1464f4ecbcad4fc742766a"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_anthropic_claude_3_5_sonnet.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_anthropic_claude_3_5_sonnet.parquet",
+    "bytes": 18750489,
+    "sha256": "6078565a5a13f92f819f923d61e4ea7868dd02b5e76996f7668a55a25226fedc"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_anthropic_claude_3_7_sonnet.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_anthropic_claude_3_7_sonnet.parquet",
+    "bytes": 78756843,
+    "sha256": "dde04643a009913ccfacb2d870962dfbcaf92eeee3aa3ba3ba654e4f25f68c98"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_deepseek_deepseek_chat_v3_0324.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_deepseek_deepseek_chat_v3_0324.parquet",
+    "bytes": 20577657,
+    "sha256": "3d03c31e942ce3ca684676b05ea3b9afab84d42e571be3a8cdfe24c7edbf32fd"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_deepseek_deepseek_r1_0528.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_deepseek_deepseek_r1_0528.parquet",
+    "bytes": 148118431,
+    "sha256": "b469f2bc7c01a2b2f9b28cade2cede792b680561def747043c1aaa2d3be75a05"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_qwen_qwen3_235b_a22b_2507.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_qwen_qwen3_235b_a22b_2507.parquet",
+    "bytes": 37325610,
+    "sha256": "6ccc9f4d358c740fe5c71f08cd7a8280e4787b784b9fba071dfdcf1f25c338fd"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_qwen_qwen3_235b_a22b_thinking_2507.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_qwen_qwen3_235b_a22b_thinking_2507.parquet",
+    "bytes": 153951504,
+    "sha256": "99bdfe3c53fa7d517270ecd8806189fa31057fa3cc1934034340101e89080237"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_qwen_qwen_2.5_72b_instruct.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_qwen_qwen_2.5_72b_instruct.parquet",
+    "bytes": 13945133,
+    "sha256": "d53a774d9d4d1e42191d43123d8df88aadb954911fb2c14aecb33464649def84"
+  },
+  {
+    "url": "https://huggingface.co/datasets/ameek/measuring_cot_monitorability_transcripts/resolve/a7a8b25ae467db9d80d63e55ac053b48753b2d36/mmlu/mmlu_qwen_qwq_32b.parquet",
+    "path": "data\\raw\\mmlu\\mmlu_qwen_qwq_32b.parquet",
+    "bytes": 112317761,
+    "sha256": "ea58cfd6418e21eb06e53d76b880a6f62b0da339b1b277e1eb49e642e0e46111"
+  },
+  {
+    "url": "https://s3-oris.bmstu.ru/cms.bmstu.ru/linguistics/proceedings_template.docx",
+    "path": "data\\sources\\proceedings_template.docx",
+    "bytes": 17845,
+    "sha256": "1d97b40a64220b175db738df30a337f09148975a2821aa823999d532df95d1cc"
+  },
+  {
+    "url": "https://s3-oris.bmstu.ru/cms.bmstu.ru/linguistics/requirements_paper.docx",
+    "path": "data\\sources\\requirements_paper.docx",
+    "bytes": 23647,
+    "sha256": "2455826c9a0feb0637db1c106c2aff4979dfacbd2cb2de4e6063df20b9e41a59"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://alignment.openai.com/metagaming/transcripts/rl-late-sandbagging-qa-no-goal-no-sandbag.pdf",
+    "path": "data\\sources\\openai_transcript.pdf",
+    "bytes": 125227,
+    "sha256": "cb385ec6dd0c8e91bf865bd92c7e901a38bea319ec4d8aeecc1c1afe407bedc3"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2609.38415v1",
+    "path": "data\\sources\\astra_aisi.pdf",
+    "bytes": 2136574,
+    "sha256": "18e32cc8accd1934b480596502eed6fe9a0b8df777e30406081e7ecbecaee218",
+    "pdf_page": 7,
+    "status": "native raw CoT excerpts selected by AISI",
+    "access_date": "2026-10-02"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2609.26637v1",
+    "path": "data\\sources\\astra_extracted.pdf",
+    "bytes": 2192767,
+    "sha256": "0fbdf779394e07caa881349145e2415b4bdc7701641830eb5322b3747bf467da",
+    "pdf_page": 6,
+    "status": "experimentally elicited externalized reasoning; not verified native CoT",
+    "access_date": "2026-10-02"
+  }
+]
