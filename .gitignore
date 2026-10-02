@@ -7,6 +7,7 @@ qa/
 data/interim/
 data/raw/*/*.parquet
 data/sources/*.pdf
+outputs/logs/
 outputs/review_v2/raw_windows.parquet
 article/author_metadata.json
 article/*.docx
