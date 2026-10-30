@@ -1,0 +1,30 @@
+[
+  {
+    "id": "Astra Lisan",
+    "description": "Опубликованная правка: два помидора остались двумя",
+    "url": "https://www.lisan.com/research/l3/",
+    "source": {"количество": ["два помидора"]},
+    "answer": {"количество": {"value": "два помидора", "status": "утверждается"}}
+  },
+  {
+    "id": "Argon Xbox",
+    "description": "Опубликованный ответ на предполагаемый вопрос об Xbox",
+    "url": "https://huggingface.co/datasets/salqadri/argon-asl-question-understanding-eval",
+    "source": {"общая тема": ["Xbox"], "запрошенный параметр": ["время отклика контроллера"]},
+    "answer": {"общая тема": {"value": "Xbox", "status": "утверждается"}, "запрошенный параметр": {"value": "частота кадров", "status": "утверждается"}}
+  },
+  {
+    "id": "Wonder video_09",
+    "description": "Ответ о себе на вопрос, описанный авторами как вопрос о людях",
+    "url": "https://huggingface.co/datasets/salqadri/argon-asl-question-understanding-eval/blob/main/RESULTS.md",
+    "source": {"субъект сновидений": ["люди"]},
+    "answer": {"субъект сновидений": {"value": "модель", "status": "утверждается"}}
+  },
+  {
+    "id": "Fable L2 учебный контроль",
+    "description": "Альтернативы из испанского задания; ответ здесь специально сконструирован, не ответ Fable",
+    "url": "https://ranking.sozpic.com/modelo/claude-fable-5-1/",
+    "source": {"владелец бюджета": ["Альберто", "Серхио", "Виктор"]},
+    "answer": {"владелец бюджета": {"value": "Серхио", "status": "утверждается"}}
+  }
+]
